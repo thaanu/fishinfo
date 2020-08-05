@@ -3,6 +3,9 @@
     // Include all configurations
     $config = include __DIR__ . '/config.php';
 
+    // Helper Functions
+    include __DIR__ . '/functions.php';
+
     // Include all library modules
     include __DIR__ . '/library/fish.php';
     include __DIR__ . '/library/user.php';
